@@ -33,14 +33,34 @@ mentioned above.
 INITIALLY CREATED TABLE and STORE PROCEDURE 
 The store procedure also need trigger for better performance.
 One trigger is used to update the amount in bank_table based on insert in transaction table
-
+```
 Following are the snip of tables
 user table :
+```
 ![img.png](img.png)
 
+```
 bank_Account table:
+```
 ![img_1.png](img_1.png)
-
+```
 transaction table:
+```
 ![img_2.png](img_2.png)
 
+```buildoutcfg
+Create trigger to check weather amount is less than 5000 after transaction or not
+```
+![img_3.png](img_3.png)
+```buildoutcfg
+Store procedure to check balance
+```
+![img_4.png](img_4.png)
+```buildoutcfg
+Store procedure to withdraw amount
+```
+![img_5.png](img_5.png)
+```buildoutcfg
+Store procedure to check transaction for a range of date
+```
+![img_6.png](img_6.png)
