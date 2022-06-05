@@ -12,6 +12,7 @@ a given interval of time.(From date and To date)
 ```
 
 ###Table Structure
+~~~
 1. User Table(User Id, User name, User dob,User email, User created date )
 2. Bank_Account Table ( User Id, bank account id, bank account number, is
 user active, amount )
@@ -19,8 +20,11 @@ user active, amount )
 amount )
 Note: If tasks 1, 2, and 3 are done, now create a console for a Python
 application.
+~~~
 ###Implement below functionality using python.
+~~~
 1. Invoke stored procedure using python script.
 2. Insert record using python script.
 3. Use OOPs to design python programs to implement all functionality
 mentioned above.
+~~~
