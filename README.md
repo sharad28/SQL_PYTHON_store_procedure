@@ -9,7 +9,7 @@
   b. Minimum balance 5000 rupees must be maintained in each user account.
 3. Check account statement: Users should be able to check all transactions for
 a given interval of time.(From date and To date)
-```
+
 
 ###Table Structure
 ~~~
@@ -28,3 +28,19 @@ application.
 3. Use OOPs to design python programs to implement all functionality
 mentioned above.
 ~~~
+```
+#SOLUTION:
+INITIALLY CREATED TABLE and STORE PROCEDURE 
+The store procedure also need trigger for better performance.
+One trigger is used to update the amount in bank_table based on insert in transaction table
+
+Following are the snip of tables
+user table :
+![img.png](img.png)
+
+bank_Account table:
+![img_1.png](img_1.png)
+
+transaction table:
+![img_2.png](img_2.png)
+
